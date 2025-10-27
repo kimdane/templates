@@ -82,7 +82,7 @@
           "title": "Domain name",
           "type": "string",
           "description": "Domain name to expose service without https:// in front"
-        },
+        }
       },
       "required": [
         "domain"
