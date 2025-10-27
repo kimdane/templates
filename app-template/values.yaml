@@ -9,4 +9,5 @@ scaling:
 
 networking:
   expose: true
+  domain:
   type: ClusterIP
