@@ -9,5 +9,5 @@ scaling:
 
 networking:
   expose: true
-  port: 80
+  domain: example.com
   type: ClusterIP
