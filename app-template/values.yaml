@@ -9,5 +9,5 @@ scaling:
 
 networking:
   expose: true
-  domain:
+  domain: example.cloudless.no
   type: ClusterIP
