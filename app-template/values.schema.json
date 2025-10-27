@@ -78,6 +78,11 @@
           "type": "boolean",
           "description": "Create a Service for your application"
         },
+        "domain": {
+          "title": "Domain name",
+          "type": "string",
+          "description": "Domain name to expose service without https:// in front"
+        },
         "type": {
           "title": "Service Type",
           "type": "string",
@@ -94,6 +99,9 @@
           "description": "Port to expose for your application"
         }
       },
+      "required": [
+        "domain"
+      ],
       "order": [
         "expose",
         "type",
