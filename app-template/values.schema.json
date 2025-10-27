@@ -79,9 +79,9 @@
           "description": "Create a Service for your application"
         },
         "domain": {
-          "title": "Domain name",
+          "title": "Sub domain name",
           "type": "string",
-          "description": "Domain name to expose service without https:// in front"
+          "description": "Sub domain name to expose service on https://<subdomain>.cloudless.no "
         }
       },
       "required": [
