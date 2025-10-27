@@ -83,29 +83,13 @@
           "type": "string",
           "description": "Domain name to expose service without https:// in front"
         },
-        "type": {
-          "title": "Service Type",
-          "type": "string",
-          "enum": [
-            "ClusterIP",
-            "NodePort",
-            "LoadBalancer"
-          ],
-          "description": "Specify the type of Service to create."
-        },
-        "port": {
-          "title": "Port",
-          "type": "integer",
-          "description": "Port to expose for your application"
-        }
       },
       "required": [
         "domain"
       ],
       "order": [
         "expose",
-        "type",
-        "port"
+        "domain"
       ]
     }
   },

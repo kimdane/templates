@@ -9,5 +9,4 @@ scaling:
 
 networking:
   expose: true
-  domain: example.com
   type: ClusterIP
