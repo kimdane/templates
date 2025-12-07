@@ -1,8 +1,11 @@
 general:
-  image: nginx
-  version: 1.14.2
+  image: registry.cloudless.no/public/example-spa
+  version: latest
   environment:
     ENVIRONMENT: production
+
+mongodb:
+  enabled: false
 
 scaling:
   replicas: 1
